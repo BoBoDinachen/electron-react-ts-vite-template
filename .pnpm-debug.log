@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: I",
+      "code": "ENOENT",
+      "stack": "Error: not found: I\n    at getNotFoundError (C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:36327:51)\n    at Function.whichSync [as sync] (C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:36404:13)\n    at getCommandAbsolutePathSync (C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:37969:44)\n    at default_1 (C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:37978:32)\n    at C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:130156:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "F:\\MyCode\\Learn_Electron\\electron-react-ts",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: I",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: I\n    at getNotFoundError (C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:36327:51)\n    at Function.whichSync [as sync] (C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:36404:13)\n    at getCommandAbsolutePathSync (C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:37969:44)\n    at default_1 (C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:37978:32)\n    at C:\\Users\\XDEcat\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.22.2\\node_modules\\pnpm\\dist\\pnpm.cjs:130156:39"
+    }
+  }
+}
